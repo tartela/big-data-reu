@@ -1,12 +1,15 @@
 
-**Title: Advances in Predicting Ice-Bed Topography Using Machine Learning: A Comprehensive Review and Case Studies**
+**Title: Evaluating Machine Learning and Statistical Models for Greenland Bed Topography**
 Team Members: Katherine Yi, Angelina Dewar, Tartela Tabassun, Jason Lu, Ray Chen
 
-RA: Homayra Alom
+RA: Homayra Alom, PhD student
 
 Mentor: Dr. Jianwu Wang
 
-Collaborator: Dr. 
+Collaborator:
+- Omar Faruque, PhD student
+- Sikan Li
+- Dr. Mathieu Morlinghem
 
 Abstract: 
-The purpose of this research study is to investigate current advances in predicting ice-bed topography using machine-learning approaches. It dives into the many strategies and algorithms used for predicting ice-bed topography, providing a complete evaluation of the most recent approaches. Furthermore, the paper includes case examples that demonstrate the efficacy and promise of machine learning in properly predicting ice-bed topography, hence leading to a better knowledge of glacier dynamics and consequences for climate change and glaciology research.
+The purpose of this research is to study how different machine learning and statistical models can be used to predict bed topography in Greenland using ice-penetrating radar and satellite imagery data. Accurate bed topography representations are crucial for understanding ice sheet stability, melt, and vulnerability to climate change. We explored nine predictive models including dense neural network, LSTM, variational auto-encoder (VAE), extreme gradient boosting (XGBoost), gaussian process regression, and kriging based residual learning. Model performance was evaluated with mean absolute error (MAE), root mean squared error (RMSE), coefficient of determination (R$^2$), and terrain ruggedness index (TRI). In addition to testing various models, different interpolation methods, including nearest neighbor, bilinear, and kriging, were also applied in preprocessing. The XGBoost model with kriging interpolation exhibited strong predictive capabilities but demands extensive resources. Alternatively, the XGBoost model with bilinear interpolation showed robust predictive capabilities and required fewer resources. These models effectively captured the complexity of the Greenland ice sheet terrain with precision and efficiency, making them valuable tools for representing spatial patterns in diverse landscapes.
